@@ -68,7 +68,6 @@
 
   .item-wrapper {
     display: flex;
-    align-items: start;
     gap: 20px;
     justify-content: space-between;
   }

@@ -13,6 +13,8 @@ header {
 
 
 
+
+ 
 a.text:active,
 a.text:hover,  
 a.text {
@@ -21,78 +23,75 @@ a.text {
   transition: opacity 500ms ease;
 }
 
+
+
+
 .skill{
-    width:200px;
-    height: 200px;
-  
-    position: absolute;
-margin-left: 115px;
-
+    width: 160px;
+    height: 160px;
+   position: relative;
+    margin-left: 110px;
+  margin-bottom: 50px;
+    
 }
+
 .outer{
-    width:200px;
-    height: 200px;
-  
-
-
-  
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgb( 0, 0, 0, 0.15);
+    box-shadow: -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+padding: 20px;
+
 }
 .inner{
-    width:150px;
-    height: 150px;
-    margin-left: 25px;
-    margin-top: 25px;
-    border: 2px solid orange;
-   
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
-}
+    box-shadow:
+    inset 4px 4px 6px -1px rgb( 0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1);
+    
+  margin-left: 30px;
+  margin-top: 30px;
 
-#number{
-    font-weight: 600;
-    color:#c68409;
-    font-family: "Times New Roman", Times, serif;
-    margin-top: 55px;
-    margin-left: 43px;
+}
+.number{
+    font-weight: 600px;
+    color: orange;
     font-size: 35px;
-
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+     margin-top:-80px;
+     font-family:'Courier New', Courier, monospace;
 }
-circle{
-    fill: none;
-    stroke-width: 20px;
-    stroke: yellow;
-  stroke-dasharray: 450;
-    stroke-dashoffset:450 ;
-    animation: anim 2s linear forwards;
- 
-}
-svg{
-position: absolute;
-margin-top: -200px;
-margin-left: 23px;
 
 
-}
-@keyframes anim {
-    100%{
-        stroke-dashoffset: 157.5;
-    }
-}
+.circle[
+    fill:none;
+    stroke: confloweerblue;
+    stroke-width:20px;
+    
+]
+
+
 
 .bg-of-elem {
     position: relative;
     bottom: 30px;
     display: flex;
     justify-content: center;
+
 }
 
 .cont-of-elem {
     justify-content: center;
     height: 430px;
     width: 80%;
-    margin-top: 25px;
+margin-top: -180px;
 }
-
 
 
 
